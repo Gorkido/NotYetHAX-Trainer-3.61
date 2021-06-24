@@ -1,0 +1,19 @@
+﻿
+
+Attempting to gather dependency information for package 'Guna.UI2.WinForms.2.0.1.4' with respect to project 'NotYetHAX', targeting '.NETFramework,Version=v4.7.2'
+Gathering dependency information took 948 ms
+Attempting to resolve dependencies for package 'Guna.UI2.WinForms.2.0.1.4' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Guna.UI2.WinForms.2.0.1.4'
+Resolved actions to install package 'Guna.UI2.WinForms.2.0.1.4'
+  GET https://api.nuget.org/v3-flatcontainer/guna.ui2.winforms/2.0.1.4/guna.ui2.winforms.2.0.1.4.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/guna.ui2.winforms/2.0.1.4/guna.ui2.winforms.2.0.1.4.nupkg 95ms
+Installed Guna.UI2.WinForms 2.0.1.4 from https://api.nuget.org/v3/index.json with content hash UOSLx1Iy8MoypqX6PNS/GRSy/u59lVTSaM4c9+jpU7YN+rnbhCzIIJlpnRF/m+1crElNpzqNWT5Sy5B+Z6usyg==.
+Adding package 'Guna.UI2.WinForms.2.0.1.4' to folder 'D:\Source VS\NotYetHAX Free Trainer V3.60\packages'
+Added package 'Guna.UI2.WinForms.2.0.1.4' to folder 'D:\Source VS\NotYetHAX Free Trainer V3.60\packages'
+Added package 'Guna.UI2.WinForms.2.0.1.4' to 'packages.config'
+Successfully installed 'Guna.UI2.WinForms 2.0.1.4' to NotYetHAX
+Executing nuget actions took 6.36 sec
+Time Elapsed: 00:00:08.1360822
+========== Finished ==========
+

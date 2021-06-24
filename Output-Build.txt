@@ -1,0 +1,3 @@
+﻿Clean started...
+1>------ Clean started: Project: NotYetHAX, Configuration: Debug x64 ------
+========== Clean: 1 succeeded, 0 failed, 0 skipped ==========
