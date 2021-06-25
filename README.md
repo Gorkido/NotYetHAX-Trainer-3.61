@@ -1,6 +1,11 @@
 # Info #
 I decided to make this trainer open source too!!
 
+# How to build? #
+Make the build type "Debug x64"
+Restore NuGet Packages and you are done!
+Have Fun!
+
 # Trainer's Preview #
 ![About](https://user-images.githubusercontent.com/81165187/123383868-5efa2b80-d59c-11eb-9bfa-249d4f87cf54.png)
 ![CheatsPage1](https://user-images.githubusercontent.com/81165187/123383874-61f51c00-d59c-11eb-861d-7d446f8b9106.png)
