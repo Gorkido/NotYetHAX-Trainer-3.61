@@ -110,7 +110,7 @@ namespace NotYetHAX
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Lime;
-            this.label3.Location = new System.Drawing.Point(12, 37);
+            this.label3.Location = new System.Drawing.Point(12, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(302, 24);
             this.label3.TabIndex = 169;
@@ -125,7 +125,7 @@ namespace NotYetHAX
             this.CANCEL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CANCEL.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CANCEL.ForeColor = System.Drawing.Color.Lime;
-            this.CANCEL.Location = new System.Drawing.Point(212, 77);
+            this.CANCEL.Location = new System.Drawing.Point(213, 77);
             this.CANCEL.Name = "CANCEL";
             this.CANCEL.Size = new System.Drawing.Size(111, 38);
             this.CANCEL.TabIndex = 170;
@@ -142,7 +142,7 @@ namespace NotYetHAX
             this.OK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OK.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OK.ForeColor = System.Drawing.Color.Lime;
-            this.OK.Location = new System.Drawing.Point(2, 77);
+            this.OK.Location = new System.Drawing.Point(1, 77);
             this.OK.Name = "OK";
             this.OK.Size = new System.Drawing.Size(111, 38);
             this.OK.TabIndex = 171;
