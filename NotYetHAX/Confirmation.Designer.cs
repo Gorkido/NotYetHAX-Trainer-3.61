@@ -178,7 +178,7 @@ namespace NotYetHAX
             // ConfPic
             // 
             this.ConfPic.Image = global::NotYetHAX.Properties.Resources.info_512;
-            this.ConfPic.Location = new System.Drawing.Point(120, 64);
+            this.ConfPic.Location = new System.Drawing.Point(120, 63);
             this.ConfPic.Name = "ConfPic";
             this.ConfPic.ShadowDecoration.Parent = this.ConfPic;
             this.ConfPic.Size = new System.Drawing.Size(86, 49);

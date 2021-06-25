@@ -34,12 +34,14 @@ namespace NotYetHAX
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.AnimatedFire1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Page3 = new System.Windows.Forms.Button();
             this.FocusText = new System.Windows.Forms.Label();
             this.Page2 = new System.Windows.Forms.Button();
             this.label138 = new System.Windows.Forms.Label();
             this.Pages = new System.Windows.Forms.Button();
             this.label126 = new System.Windows.Forms.Label();
+            this.DiscordLink1 = new System.Windows.Forms.PictureBox();
             this.Page4 = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label123 = new System.Windows.Forms.Label();
@@ -49,6 +51,8 @@ namespace NotYetHAX
             this.label9 = new System.Windows.Forms.Label();
             this.label127 = new System.Windows.Forms.Label();
             this.HaveFun = new System.Windows.Forms.Label();
+            this.AnimatedFire2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.HackerModePictureBoxAbout = new Guna.UI2.WinForms.Guna2PictureBox();
             this.CheatPage1 = new System.Windows.Forms.Panel();
             this.AntiPlatformWaterfall = new System.Windows.Forms.Button();
             this.SystemSpeed = new System.Windows.Forms.Button();
@@ -90,6 +94,7 @@ namespace NotYetHAX
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxCheatPage1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.CheatPage2 = new System.Windows.Forms.Panel();
             this.SeeInsideChests = new System.Windows.Forms.Button();
@@ -132,6 +137,7 @@ namespace NotYetHAX
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxCheatPage2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.CheatPage3 = new System.Windows.Forms.Panel();
             this.Fly = new System.Windows.Forms.Button();
             this.HigherJump = new System.Windows.Forms.Button();
@@ -173,6 +179,7 @@ namespace NotYetHAX
             this.label82 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxCheatPage3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.CheatPage4 = new System.Windows.Forms.Panel();
             this.button47 = new System.Windows.Forms.Button();
             this.button48 = new System.Windows.Forms.Button();
@@ -214,6 +221,7 @@ namespace NotYetHAX
             this.label102 = new System.Windows.Forms.Label();
             this.label103 = new System.Windows.Forms.Label();
             this.label104 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxCheatPage4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Visuals = new System.Windows.Forms.Panel();
             this.button87 = new System.Windows.Forms.Button();
             this.button88 = new System.Windows.Forms.Button();
@@ -255,6 +263,7 @@ namespace NotYetHAX
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxVisuals = new Guna.UI2.WinForms.Guna2PictureBox();
             this.About = new System.Windows.Forms.Button();
             this.Cheats = new System.Windows.Forms.Button();
             this.VisualPanel = new System.Windows.Forms.Button();
@@ -302,6 +311,7 @@ namespace NotYetHAX
             this.HairChanger = new System.Windows.Forms.TextBox();
             this.label105 = new System.Windows.Forms.Label();
             this.HatChanger = new System.Windows.Forms.TextBox();
+            this.HackerModePictureBoxChangers = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Settings = new System.Windows.Forms.Panel();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -330,6 +340,7 @@ namespace NotYetHAX
             this.TrackbarText = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
             this.label140 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxSettings = new Guna.UI2.WinForms.Guna2PictureBox();
             this.GmodeTimer = new System.Windows.Forms.Timer(this.components);
             this.ModFlyTimer = new System.Windows.Forms.Timer(this.components);
             this.button6 = new System.Windows.Forms.Button();
@@ -350,6 +361,7 @@ namespace NotYetHAX
             this.label130 = new System.Windows.Forms.Label();
             this.label129 = new System.Windows.Forms.Label();
             this.label128 = new System.Windows.Forms.Label();
+            this.HackerModePictureBoxSpammer = new Guna.UI2.WinForms.Guna2PictureBox();
             this.TextTimer = new System.Windows.Forms.Timer(this.components);
             this.PosXTimer = new System.Windows.Forms.Timer(this.components);
             this.PosYTimer = new System.Windows.Forms.Timer(this.components);
@@ -362,6 +374,7 @@ namespace NotYetHAX
             this.label32 = new System.Windows.Forms.Label();
             this.AdaptersComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.RegistryRefresher = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label150 = new System.Windows.Forms.Label();
             this.label149 = new System.Windows.Forms.Label();
@@ -384,12 +397,14 @@ namespace NotYetHAX
             this.rtb = new System.Windows.Forms.TextBox();
             this.ButtonUnban = new Guna.UI2.WinForms.Guna2Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.HackerModePictureBoxUnbanner = new Guna.UI2.WinForms.Guna2PictureBox();
             this.UnbannerButton = new System.Windows.Forms.Button();
             this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.Label1Drag = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.DragLabelDragWTF = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.DragLabelLMFAO = new System.Windows.Forms.Label();
             this.PictureBoxDrag = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.RandomMacAdressTimer = new System.Windows.Forms.Timer(this.components);
             this.SelectedColorLabel = new System.Windows.Forms.Label();
             this.SelectedColor = new System.Windows.Forms.Label();
@@ -399,9 +414,11 @@ namespace NotYetHAX
             this.HackerModePreview = new System.Windows.Forms.Button();
             this.label156 = new System.Windows.Forms.Label();
             this.HackerModeActivate = new System.Windows.Forms.Button();
+            this.HackerModePictureBoxPreview = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label155 = new System.Windows.Forms.Label();
             this.label154 = new System.Windows.Forms.Label();
             this.label153 = new System.Windows.Forms.Label();
+            this.HackerModePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.OpacityChecker = new System.Windows.Forms.Timer(this.components);
             this.FadeOut = new System.Windows.Forms.Timer(this.components);
             this.FormAnimate = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
@@ -409,49 +426,32 @@ namespace NotYetHAX
             this.DragPanelV3 = new System.Windows.Forms.Button();
             this.GrowtopiaStatus = new System.Windows.Forms.Label();
             this.DragLabelDragWTF2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.AnimatedFire1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.DiscordLink1 = new System.Windows.Forms.PictureBox();
-            this.AnimatedFire2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxAbout = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.HackerModePictureBoxSettings = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.HackerModePictureBoxUnbanner = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxCheatPage1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxCheatPage2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxCheatPage3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxCheatPage4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxVisuals = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxSpammer = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxChangers = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBoxPreview = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.HackerModePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel9.SuspendLayout();
-            this.CheatPage1.SuspendLayout();
-            this.CheatPage2.SuspendLayout();
-            this.CheatPage3.SuspendLayout();
-            this.CheatPage4.SuspendLayout();
-            this.Visuals.SuspendLayout();
-            this.Changers.SuspendLayout();
-            this.Settings.SuspendLayout();
-            this.Spammer.SuspendLayout();
-            this.Unbanner.SuspendLayout();
-            this.Changers2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AnimatedFire1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DiscordLink1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AnimatedFire2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxAbout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.CheatPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage1)).BeginInit();
+            this.CheatPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage2)).BeginInit();
+            this.CheatPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage3)).BeginInit();
+            this.CheatPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage4)).BeginInit();
+            this.Visuals.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxVisuals)).BeginInit();
+            this.Changers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxChangers)).BeginInit();
+            this.Settings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSettings)).BeginInit();
+            this.Spammer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSpammer)).BeginInit();
+            this.Unbanner.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxUnbanner)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxVisuals)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSpammer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxChangers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.Changers2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxPreview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBox)).BeginInit();
             this.SuspendLayout();
@@ -476,7 +476,7 @@ namespace NotYetHAX
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(26, 4);
+            this.label1.Location = new System.Drawing.Point(26, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(262, 24);
             this.label1.TabIndex = 0;
@@ -509,6 +509,18 @@ namespace NotYetHAX
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(635, 384);
             this.panel9.TabIndex = 8;
+            // 
+            // AnimatedFire1
+            // 
+            this.AnimatedFire1.BackColor = System.Drawing.Color.Transparent;
+            this.AnimatedFire1.Image = global::NotYetHAX.Properties.Resources.giphy;
+            this.AnimatedFire1.Location = new System.Drawing.Point(-55, 277);
+            this.AnimatedFire1.Name = "AnimatedFire1";
+            this.AnimatedFire1.ShadowDecoration.Parent = this.AnimatedFire1;
+            this.AnimatedFire1.Size = new System.Drawing.Size(160, 109);
+            this.AnimatedFire1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AnimatedFire1.TabIndex = 85;
+            this.AnimatedFire1.TabStop = false;
             // 
             // Page3
             // 
@@ -558,7 +570,7 @@ namespace NotYetHAX
             // label138
             // 
             this.label138.AutoSize = true;
-            this.label138.BackColor = System.Drawing.Color.Black;
+            this.label138.BackColor = System.Drawing.Color.Transparent;
             this.label138.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label138.ForeColor = System.Drawing.Color.Lime;
             this.label138.Location = new System.Drawing.Point(215, 315);
@@ -589,7 +601,7 @@ namespace NotYetHAX
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.BackColor = System.Drawing.Color.Black;
+            this.label126.BackColor = System.Drawing.Color.Transparent;
             this.label126.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label126.ForeColor = System.Drawing.Color.Lime;
             this.label126.Location = new System.Drawing.Point(6, 75);
@@ -597,6 +609,19 @@ namespace NotYetHAX
             this.label126.Size = new System.Drawing.Size(251, 29);
             this.label126.TabIndex = 81;
             this.label126.Text = " 💚 Discord Server=>";
+            // 
+            // DiscordLink1
+            // 
+            this.DiscordLink1.BackColor = System.Drawing.Color.Transparent;
+            this.DiscordLink1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DiscordLink1.Image = ((System.Drawing.Image)(resources.GetObject("DiscordLink1.Image")));
+            this.DiscordLink1.Location = new System.Drawing.Point(257, 31);
+            this.DiscordLink1.Name = "DiscordLink1";
+            this.DiscordLink1.Size = new System.Drawing.Size(120, 104);
+            this.DiscordLink1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.DiscordLink1.TabIndex = 79;
+            this.DiscordLink1.TabStop = false;
+            this.DiscordLink1.Click += new System.EventHandler(this.DiscordLink1_Click);
             // 
             // Page4
             // 
@@ -619,7 +644,7 @@ namespace NotYetHAX
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.BackColor = System.Drawing.Color.Black;
+            this.label124.BackColor = System.Drawing.Color.Transparent;
             this.label124.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label124.Location = new System.Drawing.Point(346, 149);
@@ -631,7 +656,7 @@ namespace NotYetHAX
             // label123
             // 
             this.label123.AutoSize = true;
-            this.label123.BackColor = System.Drawing.Color.Black;
+            this.label123.BackColor = System.Drawing.Color.Transparent;
             this.label123.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.Color.Lime;
             this.label123.Location = new System.Drawing.Point(108, 150);
@@ -661,7 +686,7 @@ namespace NotYetHAX
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.BackColor = System.Drawing.Color.Black;
+            this.label122.BackColor = System.Drawing.Color.Transparent;
             this.label122.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label122.ForeColor = System.Drawing.Color.Red;
             this.label122.Location = new System.Drawing.Point(378, 233);
@@ -673,7 +698,7 @@ namespace NotYetHAX
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.BackColor = System.Drawing.Color.Black;
+            this.label121.BackColor = System.Drawing.Color.Transparent;
             this.label121.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label121.ForeColor = System.Drawing.Color.Lime;
             this.label121.Location = new System.Drawing.Point(103, 233);
@@ -685,7 +710,7 @@ namespace NotYetHAX
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Black;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Lime;
             this.label9.Location = new System.Drawing.Point(55, 191);
@@ -697,7 +722,7 @@ namespace NotYetHAX
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.BackColor = System.Drawing.Color.Black;
+            this.label127.BackColor = System.Drawing.Color.Transparent;
             this.label127.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label127.ForeColor = System.Drawing.Color.Lime;
             this.label127.Location = new System.Drawing.Point(380, 74);
@@ -709,7 +734,7 @@ namespace NotYetHAX
             // HaveFun
             // 
             this.HaveFun.AutoSize = true;
-            this.HaveFun.BackColor = System.Drawing.Color.Black;
+            this.HaveFun.BackColor = System.Drawing.Color.Transparent;
             this.HaveFun.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HaveFun.ForeColor = System.Drawing.Color.Lime;
             this.HaveFun.Location = new System.Drawing.Point(108, 274);
@@ -718,6 +743,31 @@ namespace NotYetHAX
             this.HaveFun.TabIndex = 80;
             this.HaveFun.Text = "💚 Current Trainer Version: V3.61 💚";
             this.HaveFun.Click += new System.EventHandler(this.HaveFun_Click);
+            // 
+            // AnimatedFire2
+            // 
+            this.AnimatedFire2.BackColor = System.Drawing.Color.Transparent;
+            this.AnimatedFire2.Image = global::NotYetHAX.Properties.Resources.giphy;
+            this.AnimatedFire2.Location = new System.Drawing.Point(529, 277);
+            this.AnimatedFire2.Name = "AnimatedFire2";
+            this.AnimatedFire2.ShadowDecoration.Parent = this.AnimatedFire2;
+            this.AnimatedFire2.Size = new System.Drawing.Size(160, 109);
+            this.AnimatedFire2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AnimatedFire2.TabIndex = 86;
+            this.AnimatedFire2.TabStop = false;
+            // 
+            // HackerModePictureBoxAbout
+            // 
+            this.HackerModePictureBoxAbout.Enabled = false;
+            this.HackerModePictureBoxAbout.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxAbout.Location = new System.Drawing.Point(-1, 1);
+            this.HackerModePictureBoxAbout.Name = "HackerModePictureBoxAbout";
+            this.HackerModePictureBoxAbout.ShadowDecoration.Parent = this.HackerModePictureBoxAbout;
+            this.HackerModePictureBoxAbout.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBoxAbout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxAbout.TabIndex = 173;
+            this.HackerModePictureBoxAbout.TabStop = false;
+            this.HackerModePictureBoxAbout.Visible = false;
             // 
             // CheatPage1
             // 
@@ -1249,6 +1299,19 @@ namespace NotYetHAX
             this.label15.Size = new System.Drawing.Size(186, 22);
             this.label15.TabIndex = 41;
             this.label15.Text = "Giveaway Mode V1";
+            // 
+            // HackerModePictureBoxCheatPage1
+            // 
+            this.HackerModePictureBoxCheatPage1.Enabled = false;
+            this.HackerModePictureBoxCheatPage1.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxCheatPage1.Location = new System.Drawing.Point(-1, 2);
+            this.HackerModePictureBoxCheatPage1.Name = "HackerModePictureBoxCheatPage1";
+            this.HackerModePictureBoxCheatPage1.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage1;
+            this.HackerModePictureBoxCheatPage1.Size = new System.Drawing.Size(569, 379);
+            this.HackerModePictureBoxCheatPage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxCheatPage1.TabIndex = 178;
+            this.HackerModePictureBoxCheatPage1.TabStop = false;
+            this.HackerModePictureBoxCheatPage1.Visible = false;
             // 
             // timer1
             // 
@@ -1787,6 +1850,19 @@ namespace NotYetHAX
             this.label64.TabIndex = 101;
             this.label64.Text = "Anti Checkpoint";
             // 
+            // HackerModePictureBoxCheatPage2
+            // 
+            this.HackerModePictureBoxCheatPage2.Enabled = false;
+            this.HackerModePictureBoxCheatPage2.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxCheatPage2.Location = new System.Drawing.Point(0, 2);
+            this.HackerModePictureBoxCheatPage2.Name = "HackerModePictureBoxCheatPage2";
+            this.HackerModePictureBoxCheatPage2.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage2;
+            this.HackerModePictureBoxCheatPage2.Size = new System.Drawing.Size(569, 379);
+            this.HackerModePictureBoxCheatPage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxCheatPage2.TabIndex = 198;
+            this.HackerModePictureBoxCheatPage2.TabStop = false;
+            this.HackerModePictureBoxCheatPage2.Visible = false;
+            // 
             // CheatPage3
             // 
             this.CheatPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -2319,6 +2395,19 @@ namespace NotYetHAX
             this.label84.TabIndex = 141;
             this.label84.Text = "See Locked Doors";
             // 
+            // HackerModePictureBoxCheatPage3
+            // 
+            this.HackerModePictureBoxCheatPage3.Enabled = false;
+            this.HackerModePictureBoxCheatPage3.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxCheatPage3.Location = new System.Drawing.Point(0, 2);
+            this.HackerModePictureBoxCheatPage3.Name = "HackerModePictureBoxCheatPage3";
+            this.HackerModePictureBoxCheatPage3.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage3;
+            this.HackerModePictureBoxCheatPage3.Size = new System.Drawing.Size(569, 379);
+            this.HackerModePictureBoxCheatPage3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxCheatPage3.TabIndex = 200;
+            this.HackerModePictureBoxCheatPage3.TabStop = false;
+            this.HackerModePictureBoxCheatPage3.Visible = false;
+            // 
             // CheatPage4
             // 
             this.CheatPage4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -2849,6 +2938,19 @@ namespace NotYetHAX
             this.label104.TabIndex = 141;
             this.label104.Text = "Unlimited Jump";
             // 
+            // HackerModePictureBoxCheatPage4
+            // 
+            this.HackerModePictureBoxCheatPage4.Enabled = false;
+            this.HackerModePictureBoxCheatPage4.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxCheatPage4.Location = new System.Drawing.Point(-1, 2);
+            this.HackerModePictureBoxCheatPage4.Name = "HackerModePictureBoxCheatPage4";
+            this.HackerModePictureBoxCheatPage4.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage4;
+            this.HackerModePictureBoxCheatPage4.Size = new System.Drawing.Size(569, 379);
+            this.HackerModePictureBoxCheatPage4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxCheatPage4.TabIndex = 200;
+            this.HackerModePictureBoxCheatPage4.TabStop = false;
+            this.HackerModePictureBoxCheatPage4.Visible = false;
+            // 
             // Visuals
             // 
             this.Visuals.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -3374,6 +3476,19 @@ namespace NotYetHAX
             this.label44.Size = new System.Drawing.Size(140, 22);
             this.label44.TabIndex = 91;
             this.label44.Text = "Time Machine";
+            // 
+            // HackerModePictureBoxVisuals
+            // 
+            this.HackerModePictureBoxVisuals.Enabled = false;
+            this.HackerModePictureBoxVisuals.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxVisuals.Location = new System.Drawing.Point(-1, 2);
+            this.HackerModePictureBoxVisuals.Name = "HackerModePictureBoxVisuals";
+            this.HackerModePictureBoxVisuals.ShadowDecoration.Parent = this.HackerModePictureBoxVisuals;
+            this.HackerModePictureBoxVisuals.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBoxVisuals.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxVisuals.TabIndex = 198;
+            this.HackerModePictureBoxVisuals.TabStop = false;
+            this.HackerModePictureBoxVisuals.Visible = false;
             // 
             // About
             // 
@@ -4132,6 +4247,19 @@ namespace NotYetHAX
             this.HatChanger.Text = "0";
             this.HatChanger.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // HackerModePictureBoxChangers
+            // 
+            this.HackerModePictureBoxChangers.Enabled = false;
+            this.HackerModePictureBoxChangers.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxChangers.Location = new System.Drawing.Point(-1, 1);
+            this.HackerModePictureBoxChangers.Name = "HackerModePictureBoxChangers";
+            this.HackerModePictureBoxChangers.ShadowDecoration.Parent = this.HackerModePictureBoxChangers;
+            this.HackerModePictureBoxChangers.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBoxChangers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxChangers.TabIndex = 174;
+            this.HackerModePictureBoxChangers.TabStop = false;
+            this.HackerModePictureBoxChangers.Visible = false;
+            // 
             // Settings
             // 
             this.Settings.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -4532,6 +4660,19 @@ namespace NotYetHAX
             this.label140.TabIndex = 91;
             this.label140.Text = "Always On Top";
             // 
+            // HackerModePictureBoxSettings
+            // 
+            this.HackerModePictureBoxSettings.Enabled = false;
+            this.HackerModePictureBoxSettings.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxSettings.Location = new System.Drawing.Point(-1, 2);
+            this.HackerModePictureBoxSettings.Name = "HackerModePictureBoxSettings";
+            this.HackerModePictureBoxSettings.ShadowDecoration.Parent = this.HackerModePictureBoxSettings;
+            this.HackerModePictureBoxSettings.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBoxSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxSettings.TabIndex = 174;
+            this.HackerModePictureBoxSettings.TabStop = false;
+            this.HackerModePictureBoxSettings.Visible = false;
+            // 
             // GmodeTimer
             // 
             this.GmodeTimer.Interval = 50;
@@ -4788,6 +4929,19 @@ namespace NotYetHAX
             this.label128.TabIndex = 105;
             this.label128.Text = "Interval:";
             // 
+            // HackerModePictureBoxSpammer
+            // 
+            this.HackerModePictureBoxSpammer.Enabled = false;
+            this.HackerModePictureBoxSpammer.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxSpammer.Location = new System.Drawing.Point(-1, 1);
+            this.HackerModePictureBoxSpammer.Name = "HackerModePictureBoxSpammer";
+            this.HackerModePictureBoxSpammer.ShadowDecoration.Parent = this.HackerModePictureBoxSpammer;
+            this.HackerModePictureBoxSpammer.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBoxSpammer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxSpammer.TabIndex = 174;
+            this.HackerModePictureBoxSpammer.TabStop = false;
+            this.HackerModePictureBoxSpammer.Visible = false;
+            // 
             // TextTimer
             // 
             this.TextTimer.Interval = 1000000;
@@ -4919,6 +5073,19 @@ namespace NotYetHAX
             this.RegistryRefresher.TabIndex = 183;
             this.RegistryRefresher.Text = "REFRESH";
             this.RegistryRefresher.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RegistryRefresher_MouseDown);
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::NotYetHAX.Properties.Resources.icons8_info_64;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(376, 12);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(31, 28);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 181;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2CirclePictureBox1_MouseDown);
             // 
             // guna2Button1
             // 
@@ -5260,6 +5427,19 @@ namespace NotYetHAX
             this.textBox1.TabIndex = 164;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // HackerModePictureBoxUnbanner
+            // 
+            this.HackerModePictureBoxUnbanner.Enabled = false;
+            this.HackerModePictureBoxUnbanner.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxUnbanner.Location = new System.Drawing.Point(1, 1);
+            this.HackerModePictureBoxUnbanner.Name = "HackerModePictureBoxUnbanner";
+            this.HackerModePictureBoxUnbanner.ShadowDecoration.Parent = this.HackerModePictureBoxUnbanner;
+            this.HackerModePictureBoxUnbanner.Size = new System.Drawing.Size(631, 379);
+            this.HackerModePictureBoxUnbanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxUnbanner.TabIndex = 182;
+            this.HackerModePictureBoxUnbanner.TabStop = false;
+            this.HackerModePictureBoxUnbanner.Visible = false;
+            // 
             // UnbannerButton
             // 
             this.UnbannerButton.BackColor = System.Drawing.Color.Black;
@@ -5306,6 +5486,18 @@ namespace NotYetHAX
             // 
             this.PictureBoxDrag.ContainerControl = this;
             this.PictureBoxDrag.TargetControl = this.pictureBox3;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Black;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(27, 26);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 85;
+            this.pictureBox3.TabStop = false;
             // 
             // RandomMacAdressTimer
             // 
@@ -5401,6 +5593,19 @@ namespace NotYetHAX
             this.HackerModeActivate.UseVisualStyleBackColor = false;
             this.HackerModeActivate.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HackerModeActivate_MouseDown);
             // 
+            // HackerModePictureBoxPreview
+            // 
+            this.HackerModePictureBoxPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.HackerModePictureBoxPreview.Enabled = false;
+            this.HackerModePictureBoxPreview.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBoxPreview.Location = new System.Drawing.Point(15, 36);
+            this.HackerModePictureBoxPreview.Name = "HackerModePictureBoxPreview";
+            this.HackerModePictureBoxPreview.ShadowDecoration.Parent = this.HackerModePictureBoxPreview;
+            this.HackerModePictureBoxPreview.Size = new System.Drawing.Size(160, 109);
+            this.HackerModePictureBoxPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBoxPreview.TabIndex = 160;
+            this.HackerModePictureBoxPreview.TabStop = false;
+            // 
             // label155
             // 
             this.label155.AutoSize = true;
@@ -5436,6 +5641,19 @@ namespace NotYetHAX
             this.label153.TabIndex = 158;
             this.label153.Text = "<< Page 1";
             this.label153.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label153_MouseDown);
+            // 
+            // HackerModePictureBox
+            // 
+            this.HackerModePictureBox.Enabled = false;
+            this.HackerModePictureBox.Image = global::NotYetHAX.Properties.Resources.giphy1;
+            this.HackerModePictureBox.Location = new System.Drawing.Point(-1, -8);
+            this.HackerModePictureBox.Name = "HackerModePictureBox";
+            this.HackerModePictureBox.ShadowDecoration.Parent = this.HackerModePictureBox;
+            this.HackerModePictureBox.Size = new System.Drawing.Size(635, 379);
+            this.HackerModePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HackerModePictureBox.TabIndex = 172;
+            this.HackerModePictureBox.TabStop = false;
+            this.HackerModePictureBox.Visible = false;
             // 
             // OpacityChecker
             // 
@@ -5498,222 +5716,6 @@ namespace NotYetHAX
             this.DragLabelDragWTF2.ContainerControl = this;
             this.DragLabelDragWTF2.TargetControl = this.GrowtopiaStatus;
             // 
-            // AnimatedFire1
-            // 
-            this.AnimatedFire1.Image = global::NotYetHAX.Properties.Resources.giphy;
-            this.AnimatedFire1.Location = new System.Drawing.Point(-55, 277);
-            this.AnimatedFire1.Name = "AnimatedFire1";
-            this.AnimatedFire1.ShadowDecoration.Parent = this.AnimatedFire1;
-            this.AnimatedFire1.Size = new System.Drawing.Size(160, 109);
-            this.AnimatedFire1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AnimatedFire1.TabIndex = 85;
-            this.AnimatedFire1.TabStop = false;
-            // 
-            // DiscordLink1
-            // 
-            this.DiscordLink1.BackColor = System.Drawing.Color.Black;
-            this.DiscordLink1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DiscordLink1.Image = ((System.Drawing.Image)(resources.GetObject("DiscordLink1.Image")));
-            this.DiscordLink1.Location = new System.Drawing.Point(257, 31);
-            this.DiscordLink1.Name = "DiscordLink1";
-            this.DiscordLink1.Size = new System.Drawing.Size(120, 104);
-            this.DiscordLink1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.DiscordLink1.TabIndex = 79;
-            this.DiscordLink1.TabStop = false;
-            this.DiscordLink1.Click += new System.EventHandler(this.DiscordLink1_Click);
-            // 
-            // AnimatedFire2
-            // 
-            this.AnimatedFire2.Image = global::NotYetHAX.Properties.Resources.giphy;
-            this.AnimatedFire2.Location = new System.Drawing.Point(529, 277);
-            this.AnimatedFire2.Name = "AnimatedFire2";
-            this.AnimatedFire2.ShadowDecoration.Parent = this.AnimatedFire2;
-            this.AnimatedFire2.Size = new System.Drawing.Size(160, 109);
-            this.AnimatedFire2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AnimatedFire2.TabIndex = 86;
-            this.AnimatedFire2.TabStop = false;
-            // 
-            // HackerModePictureBoxAbout
-            // 
-            this.HackerModePictureBoxAbout.Enabled = false;
-            this.HackerModePictureBoxAbout.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxAbout.Location = new System.Drawing.Point(-1, 1);
-            this.HackerModePictureBoxAbout.Name = "HackerModePictureBoxAbout";
-            this.HackerModePictureBoxAbout.ShadowDecoration.Parent = this.HackerModePictureBoxAbout;
-            this.HackerModePictureBoxAbout.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBoxAbout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxAbout.TabIndex = 173;
-            this.HackerModePictureBoxAbout.TabStop = false;
-            this.HackerModePictureBoxAbout.Visible = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Black;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(27, 26);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 85;
-            this.pictureBox3.TabStop = false;
-            // 
-            // HackerModePictureBoxSettings
-            // 
-            this.HackerModePictureBoxSettings.Enabled = false;
-            this.HackerModePictureBoxSettings.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxSettings.Location = new System.Drawing.Point(-1, 2);
-            this.HackerModePictureBoxSettings.Name = "HackerModePictureBoxSettings";
-            this.HackerModePictureBoxSettings.ShadowDecoration.Parent = this.HackerModePictureBoxSettings;
-            this.HackerModePictureBoxSettings.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBoxSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxSettings.TabIndex = 174;
-            this.HackerModePictureBoxSettings.TabStop = false;
-            this.HackerModePictureBoxSettings.Visible = false;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = global::NotYetHAX.Properties.Resources.icons8_info_64;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(376, 12);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(31, 28);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 181;
-            this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2CirclePictureBox1_MouseDown);
-            // 
-            // HackerModePictureBoxUnbanner
-            // 
-            this.HackerModePictureBoxUnbanner.Enabled = false;
-            this.HackerModePictureBoxUnbanner.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxUnbanner.Location = new System.Drawing.Point(1, 1);
-            this.HackerModePictureBoxUnbanner.Name = "HackerModePictureBoxUnbanner";
-            this.HackerModePictureBoxUnbanner.ShadowDecoration.Parent = this.HackerModePictureBoxUnbanner;
-            this.HackerModePictureBoxUnbanner.Size = new System.Drawing.Size(631, 379);
-            this.HackerModePictureBoxUnbanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxUnbanner.TabIndex = 182;
-            this.HackerModePictureBoxUnbanner.TabStop = false;
-            this.HackerModePictureBoxUnbanner.Visible = false;
-            // 
-            // HackerModePictureBoxCheatPage1
-            // 
-            this.HackerModePictureBoxCheatPage1.Enabled = false;
-            this.HackerModePictureBoxCheatPage1.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxCheatPage1.Location = new System.Drawing.Point(-1, 2);
-            this.HackerModePictureBoxCheatPage1.Name = "HackerModePictureBoxCheatPage1";
-            this.HackerModePictureBoxCheatPage1.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage1;
-            this.HackerModePictureBoxCheatPage1.Size = new System.Drawing.Size(569, 379);
-            this.HackerModePictureBoxCheatPage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxCheatPage1.TabIndex = 178;
-            this.HackerModePictureBoxCheatPage1.TabStop = false;
-            this.HackerModePictureBoxCheatPage1.Visible = false;
-            // 
-            // HackerModePictureBoxCheatPage2
-            // 
-            this.HackerModePictureBoxCheatPage2.Enabled = false;
-            this.HackerModePictureBoxCheatPage2.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxCheatPage2.Location = new System.Drawing.Point(0, 2);
-            this.HackerModePictureBoxCheatPage2.Name = "HackerModePictureBoxCheatPage2";
-            this.HackerModePictureBoxCheatPage2.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage2;
-            this.HackerModePictureBoxCheatPage2.Size = new System.Drawing.Size(569, 379);
-            this.HackerModePictureBoxCheatPage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxCheatPage2.TabIndex = 198;
-            this.HackerModePictureBoxCheatPage2.TabStop = false;
-            this.HackerModePictureBoxCheatPage2.Visible = false;
-            // 
-            // HackerModePictureBoxCheatPage3
-            // 
-            this.HackerModePictureBoxCheatPage3.Enabled = false;
-            this.HackerModePictureBoxCheatPage3.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxCheatPage3.Location = new System.Drawing.Point(0, 2);
-            this.HackerModePictureBoxCheatPage3.Name = "HackerModePictureBoxCheatPage3";
-            this.HackerModePictureBoxCheatPage3.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage3;
-            this.HackerModePictureBoxCheatPage3.Size = new System.Drawing.Size(569, 379);
-            this.HackerModePictureBoxCheatPage3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxCheatPage3.TabIndex = 200;
-            this.HackerModePictureBoxCheatPage3.TabStop = false;
-            this.HackerModePictureBoxCheatPage3.Visible = false;
-            // 
-            // HackerModePictureBoxCheatPage4
-            // 
-            this.HackerModePictureBoxCheatPage4.Enabled = false;
-            this.HackerModePictureBoxCheatPage4.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxCheatPage4.Location = new System.Drawing.Point(-1, 2);
-            this.HackerModePictureBoxCheatPage4.Name = "HackerModePictureBoxCheatPage4";
-            this.HackerModePictureBoxCheatPage4.ShadowDecoration.Parent = this.HackerModePictureBoxCheatPage4;
-            this.HackerModePictureBoxCheatPage4.Size = new System.Drawing.Size(569, 379);
-            this.HackerModePictureBoxCheatPage4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxCheatPage4.TabIndex = 200;
-            this.HackerModePictureBoxCheatPage4.TabStop = false;
-            this.HackerModePictureBoxCheatPage4.Visible = false;
-            // 
-            // HackerModePictureBoxVisuals
-            // 
-            this.HackerModePictureBoxVisuals.Enabled = false;
-            this.HackerModePictureBoxVisuals.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxVisuals.Location = new System.Drawing.Point(-1, 2);
-            this.HackerModePictureBoxVisuals.Name = "HackerModePictureBoxVisuals";
-            this.HackerModePictureBoxVisuals.ShadowDecoration.Parent = this.HackerModePictureBoxVisuals;
-            this.HackerModePictureBoxVisuals.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBoxVisuals.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxVisuals.TabIndex = 198;
-            this.HackerModePictureBoxVisuals.TabStop = false;
-            this.HackerModePictureBoxVisuals.Visible = false;
-            // 
-            // HackerModePictureBoxSpammer
-            // 
-            this.HackerModePictureBoxSpammer.Enabled = false;
-            this.HackerModePictureBoxSpammer.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxSpammer.Location = new System.Drawing.Point(-1, 1);
-            this.HackerModePictureBoxSpammer.Name = "HackerModePictureBoxSpammer";
-            this.HackerModePictureBoxSpammer.ShadowDecoration.Parent = this.HackerModePictureBoxSpammer;
-            this.HackerModePictureBoxSpammer.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBoxSpammer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxSpammer.TabIndex = 174;
-            this.HackerModePictureBoxSpammer.TabStop = false;
-            this.HackerModePictureBoxSpammer.Visible = false;
-            // 
-            // HackerModePictureBoxChangers
-            // 
-            this.HackerModePictureBoxChangers.Enabled = false;
-            this.HackerModePictureBoxChangers.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxChangers.Location = new System.Drawing.Point(-1, 1);
-            this.HackerModePictureBoxChangers.Name = "HackerModePictureBoxChangers";
-            this.HackerModePictureBoxChangers.ShadowDecoration.Parent = this.HackerModePictureBoxChangers;
-            this.HackerModePictureBoxChangers.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBoxChangers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxChangers.TabIndex = 174;
-            this.HackerModePictureBoxChangers.TabStop = false;
-            this.HackerModePictureBoxChangers.Visible = false;
-            // 
-            // HackerModePictureBoxPreview
-            // 
-            this.HackerModePictureBoxPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.HackerModePictureBoxPreview.Enabled = false;
-            this.HackerModePictureBoxPreview.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBoxPreview.Location = new System.Drawing.Point(15, 36);
-            this.HackerModePictureBoxPreview.Name = "HackerModePictureBoxPreview";
-            this.HackerModePictureBoxPreview.ShadowDecoration.Parent = this.HackerModePictureBoxPreview;
-            this.HackerModePictureBoxPreview.Size = new System.Drawing.Size(160, 109);
-            this.HackerModePictureBoxPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBoxPreview.TabIndex = 160;
-            this.HackerModePictureBoxPreview.TabStop = false;
-            // 
-            // HackerModePictureBox
-            // 
-            this.HackerModePictureBox.Enabled = false;
-            this.HackerModePictureBox.Image = global::NotYetHAX.Properties.Resources.giphy1;
-            this.HackerModePictureBox.Location = new System.Drawing.Point(-1, -8);
-            this.HackerModePictureBox.Name = "HackerModePictureBox";
-            this.HackerModePictureBox.ShadowDecoration.Parent = this.HackerModePictureBox;
-            this.HackerModePictureBox.Size = new System.Drawing.Size(635, 379);
-            this.HackerModePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HackerModePictureBox.TabIndex = 172;
-            this.HackerModePictureBox.TabStop = false;
-            this.HackerModePictureBox.Visible = false;
-            // 
             // NotYetHAX
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5758,41 +5760,41 @@ namespace NotYetHAX
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NotYetHAX_KeyDown);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            this.CheatPage1.ResumeLayout(false);
-            this.CheatPage1.PerformLayout();
-            this.CheatPage2.ResumeLayout(false);
-            this.CheatPage2.PerformLayout();
-            this.CheatPage3.ResumeLayout(false);
-            this.CheatPage3.PerformLayout();
-            this.CheatPage4.ResumeLayout(false);
-            this.CheatPage4.PerformLayout();
-            this.Visuals.ResumeLayout(false);
-            this.Visuals.PerformLayout();
-            this.Changers.ResumeLayout(false);
-            this.Changers.PerformLayout();
-            this.Settings.ResumeLayout(false);
-            this.Settings.PerformLayout();
-            this.Spammer.ResumeLayout(false);
-            this.Spammer.PerformLayout();
-            this.Unbanner.ResumeLayout(false);
-            this.Unbanner.PerformLayout();
-            this.Changers2.ResumeLayout(false);
-            this.Changers2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AnimatedFire1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DiscordLink1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AnimatedFire2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxAbout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.CheatPage1.ResumeLayout(false);
+            this.CheatPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage1)).EndInit();
+            this.CheatPage2.ResumeLayout(false);
+            this.CheatPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage2)).EndInit();
+            this.CheatPage3.ResumeLayout(false);
+            this.CheatPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage3)).EndInit();
+            this.CheatPage4.ResumeLayout(false);
+            this.CheatPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage4)).EndInit();
+            this.Visuals.ResumeLayout(false);
+            this.Visuals.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxVisuals)).EndInit();
+            this.Changers.ResumeLayout(false);
+            this.Changers.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxChangers)).EndInit();
+            this.Settings.ResumeLayout(false);
+            this.Settings.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSettings)).EndInit();
+            this.Spammer.ResumeLayout(false);
+            this.Spammer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSpammer)).EndInit();
+            this.Unbanner.ResumeLayout(false);
+            this.Unbanner.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxUnbanner)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxCheatPage4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxVisuals)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxSpammer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxChangers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Changers2.ResumeLayout(false);
+            this.Changers2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBoxPreview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HackerModePictureBox)).EndInit();
             this.ResumeLayout(false);
