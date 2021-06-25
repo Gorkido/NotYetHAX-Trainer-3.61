@@ -321,15 +321,6 @@ namespace NotYetHAX
         private bool ProcOpen = false;
         private void NotYetHAX_Load(object sender, EventArgs e)
         {
-            if (Environment.Is64BitOperatingSystem)
-            {
-
-            }
-            else
-            {
-                MessageBox.Show("This Trainer Won't Work With 32 Bit Computers...");
-            }
-
             string path = Path.Combine(Environment.SystemDirectory, @"drivers\etc\hosts");
             string str = File.ReadAllText(path);
             HostFileEditor.Text = str;
