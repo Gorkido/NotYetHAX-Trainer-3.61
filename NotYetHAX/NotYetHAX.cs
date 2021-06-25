@@ -3374,7 +3374,7 @@ namespace NotYetHAX
 
         private void label149_MouseDown(object sender, MouseEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://mega.nz/file/AEJi2bxS#tkC3HKwp7r3o5yzUt0cN_n_qzUxyDKc9hzCmsNdWKhQ");
+            Process.Start("https://mega.nz/file/AEJi2bxS#tkC3HKwp7r3o5yzUt0cN_n_qzUxyDKc9hzCmsNdWKhQ");
         }
 
         private void guna2Button1_MouseDown(object sender, MouseEventArgs e)
@@ -3855,7 +3855,7 @@ namespace NotYetHAX
 
         private void label32_MouseDown(object sender, MouseEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://windscribe.com/");
+            Process.Start("https://windscribe.com/");
         }
 
         private void Page4_MouseDown(object sender, MouseEventArgs e)
