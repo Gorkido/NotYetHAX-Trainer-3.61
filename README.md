@@ -3,10 +3,14 @@ I decided to make this trainer open source too!!
 
 # How to build? #
 Make the build type "Debug x64"
+
 ![DebugX64](https://user-images.githubusercontent.com/81165187/123397926-a805ac00-d5ab-11eb-9138-d675bfe348ff.png)
 
+
 Restore NuGet Packages and you are done!
+
 ![image](https://user-images.githubusercontent.com/81165187/123398041-c53a7a80-d5ab-11eb-9313-cf6e57836691.png)
+
 
 Have Fun!
 
