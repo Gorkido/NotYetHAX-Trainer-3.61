@@ -71,14 +71,14 @@ namespace NotYetHAX
                 }
 
                 customname = NetworkInterface.GetAllNetworkInterfaces().Where(
-                    i => i.Description == adaptername
+                  i => i.Description == adaptername
                 ).Select(
-                    i => " (" + i.Name + ")"
+                  i => " (" + i.Name + ")"
                 ).FirstOrDefault();
             }
             public NetworkInterface ManagedAdapter => NetworkInterface.GetAllNetworkInterfaces().Where(
-                        nic => nic.Description == adaptername
-                    ).FirstOrDefault();
+              nic => nic.Description == adaptername
+            ).FirstOrDefault();
 
             public string Mac
             {
@@ -88,7 +88,10 @@ namespace NotYetHAX
                     {
                         return BitConverter.ToString(ManagedAdapter.GetPhysicalAddress().GetAddressBytes()).Replace("-", "").ToUpper();
                     }
-                    catch { return null; }
+                    catch
+                    {
+                        return null;
+                    }
                 }
             }
 
@@ -129,8 +132,8 @@ namespace NotYetHAX
                             throw new Exception("Failed to open the registry key");
                         }
 
-                        if (regkey.GetValue("AdapterModel") as string != adaptername
-                            && regkey.GetValue("DriverDesc") as string != adaptername)
+                        if (regkey.GetValue("AdapterModel") as string != adaptername &&
+                          regkey.GetValue("DriverDesc") as string != adaptername)
                         {
                             throw new Exception("Adapter not found in registry");
                         }
@@ -155,13 +158,11 @@ namespace NotYetHAX
                         return true;
                     }
                 }
-
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
                     return false;
                 }
-
                 finally
                 {
                     if (shouldReenable)
@@ -279,7 +280,7 @@ namespace NotYetHAX
                 rtb.Text = rtb.Text + Environment.NewLine;
                 rtb.Text = rtb.Text + "->The Second Key " + longkey.Text + " is deleted!";
                 string microsoftKey = @"Software\Microsoft\" + shortkey.Text;
-                Registry.CurrentUser.DeleteSubKey(microsoftKey);
+              Registry.CurrentUser.DeleteSubKey(microsoftKey);
                 rtb.Text = rtb.Text + Environment.NewLine;
                 rtb.Text = rtb.Text + "->The First Key " + shortkey.Text + " is deleted!";
                 string cryptographyKey = @"SOFTWARE\Microsoft\Cryptography";
@@ -327,8 +328,8 @@ namespace NotYetHAX
             BGWorker.RunWorkerAsync();
 
             foreach (NetworkInterface adapter in NetworkInterface.GetAllNetworkInterfaces().Where(
-                    a => Adapter.IsValidMac(a.GetPhysicalAddress().GetAddressBytes(), true)
-                ).OrderByDescending(a => a.Speed))
+              a => Adapter.IsValidMac(a.GetPhysicalAddress().GetAddressBytes(), true)
+            ).OrderByDescending(a => a.Speed))
             {
                 AdaptersComboBox.Items.Add(new Adapter(adapter));
             }
