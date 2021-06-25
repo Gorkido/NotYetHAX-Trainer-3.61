@@ -3,7 +3,9 @@ I decided to make this trainer open source too!!
 
 # How to build? #
 Make the build type "Debug x64"
+
 Restore NuGet Packages and you are done!
+
 Have Fun!
 
 # Trainer's Preview #
