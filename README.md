@@ -7,7 +7,7 @@ I decided to make this trainer open source too!!
 <div align="center">
   
 ## How to build?
-</div>
+
 Make the build type "Debug x64"
 
 ![DebugX64](https://user-images.githubusercontent.com/81165187/123397926-a805ac00-d5ab-11eb-9138-d675bfe348ff.png)
@@ -19,6 +19,7 @@ Restore NuGet Packages and you are done!
 
 
 Have Fun!
+</div>
 
 <div align="center">
   
