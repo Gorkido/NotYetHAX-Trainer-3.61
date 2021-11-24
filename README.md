@@ -2,10 +2,9 @@
   
 ## Info 
 </div>
+<div align="center">
 I decided to make this trainer open source too!!
 
-<div align="center">
-  
 ## How to build?
 
 Make the build type "Debug x64"
