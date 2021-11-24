@@ -36,3 +36,14 @@ Have Fun!
 ![Unbanner](https://user-images.githubusercontent.com/81165187/123383977-80f3ae00-d59c-11eb-98dd-958bcc8d7961.png)
 ![Settings](https://user-images.githubusercontent.com/81165187/123383983-82bd7180-d59c-11eb-8fd8-51e82a6a157b.png)
 </div>
+
+<div align="center">
+  
+## Donation
+  
+| BTC                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------
+| ![bc1qtfr0fasggv47z56zwxlt0k5m9euwzp5g5k8pyw](https://user-images.githubusercontent.com/81165187/143252528-5b5624eb-2908-465f-a14d-66d896aa3d39.png "bc1qtfr0fasggv47z56zwxlt0k5m9euwzp5g5k8pyw")|
+| `bc1qtfr0fasggv47z56zwxlt0k5m9euwzp5g5k8pyw`|
+  
+</div>
