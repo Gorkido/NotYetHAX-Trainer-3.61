@@ -1155,7 +1155,7 @@ namespace NotYetHAX
 
         private void DiscordLink1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://discord.gg/rEAT4SKg4S");
+            System.Diagnostics.Process.Start("https://discord.gg/mTmBR4yrC8");
         }
 
         private void button6_MouseDown(object sender, MouseEventArgs e)
