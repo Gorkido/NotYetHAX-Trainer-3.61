@@ -23,7 +23,6 @@ Have Fun!
 <div align="center">
   
 ## Trainer's Preview
-</div>
 
 ![About](https://user-images.githubusercontent.com/81165187/123383868-5efa2b80-d59c-11eb-9bfa-249d4f87cf54.png)
 ![CheatsPage1](https://user-images.githubusercontent.com/81165187/123383874-61f51c00-d59c-11eb-861d-7d446f8b9106.png)
@@ -36,3 +35,4 @@ Have Fun!
 ![Spammer](https://user-images.githubusercontent.com/81165187/123383962-7b966380-d59c-11eb-8659-16b599b0ac02.png)
 ![Unbanner](https://user-images.githubusercontent.com/81165187/123383977-80f3ae00-d59c-11eb-98dd-958bcc8d7961.png)
 ![Settings](https://user-images.githubusercontent.com/81165187/123383983-82bd7180-d59c-11eb-8fd8-51e82a6a157b.png)
+</div>
