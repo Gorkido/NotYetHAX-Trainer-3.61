@@ -1,7 +1,13 @@
-# Info #
+<div align="center">
+  
+## Info 
+</div>
 I decided to make this trainer open source too!!
 
-# How to build? #
+<div align="center">
+  
+## How to build?
+</div>
 Make the build type "Debug x64"
 
 ![DebugX64](https://user-images.githubusercontent.com/81165187/123397926-a805ac00-d5ab-11eb-9138-d675bfe348ff.png)
@@ -14,7 +20,10 @@ Restore NuGet Packages and you are done!
 
 Have Fun!
 
-# Trainer's Preview #
+## <div align="center">
+  
+## Trainer's Preview
+</div>
 ![About](https://user-images.githubusercontent.com/81165187/123383868-5efa2b80-d59c-11eb-9bfa-249d4f87cf54.png)
 ![CheatsPage1](https://user-images.githubusercontent.com/81165187/123383874-61f51c00-d59c-11eb-861d-7d446f8b9106.png)
 ![CheatsPage2](https://user-images.githubusercontent.com/81165187/123383883-628db280-d59c-11eb-9e37-e3abb3ce73f4.png)
