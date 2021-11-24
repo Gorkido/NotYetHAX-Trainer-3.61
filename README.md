@@ -24,6 +24,7 @@ Have Fun!
   
 ## Trainer's Preview
 </div>
+
 ![About](https://user-images.githubusercontent.com/81165187/123383868-5efa2b80-d59c-11eb-9bfa-249d4f87cf54.png)
 ![CheatsPage1](https://user-images.githubusercontent.com/81165187/123383874-61f51c00-d59c-11eb-861d-7d446f8b9106.png)
 ![CheatsPage2](https://user-images.githubusercontent.com/81165187/123383883-628db280-d59c-11eb-9e37-e3abb3ce73f4.png)
