@@ -20,7 +20,7 @@ Restore NuGet Packages and you are done!
 
 Have Fun!
 
-## <div align="center">
+<div align="center">
   
 ## Trainer's Preview
 </div>
